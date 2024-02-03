@@ -10,6 +10,7 @@ import 'package:flutter/foundation.dart';
 import 'Screen/CountExample.dart';
 import 'Screen/DarkThem.dart';
 import 'Screen/ExampleOne.dart';
+import 'Screen/NotifyListenerScreen.dart';
 import 'Screen/favouriteScreen.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             theme: themeProvider.isDark ? ThemeData.dark() : ThemeData.light(),
-            home: DarkThemeScreen(),
+            home: NotifyListenerScreen(),
           );
         },
       ),
